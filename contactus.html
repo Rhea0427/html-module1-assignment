@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+</head>
+<body background="https://www.solidbackgrounds.com/images/2560x1440/2560x1440-turquoise-solid-color-background.jpg">
+<form>
+<table >
+<tr>
+<td><b>First Name:</b></td>
+<td><input type="text" maxlength="10" placeholder="Enter First Name..." autocomplete="false"></td>
+</tr>
+<tr>
+<td><b>Last Name:</b></td>
+<td><input type="text" required="true" title="Please do not keep it empty" placeholder="Enter Last Name..."  ></td>
+</tr>
+<tr>
+<td><b>E-mail:</b></td>
+<td><input type="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"autofocus multiple></td>
+</tr>
+<tr>
+<td><b>Password:</b></td>
+<td><input type="Password" pattern=".{6,}"></td>	
+</tr>
+<tr>
+<td><b>Subject:</b></td>
+
+<td>
+<select>
+<option value="Admission">Admission</option>
+<option value="Fee structure">Fee structure</option>
+<option value="Help">Help</option>
+</select>
+</td>
+</tr>
+<tr>
+	<td>Message:</td>
+	<td><textarea placeholder="Write a few lines" rows="10" cols="50"></textarea></td>
+</tr>
+<tr>
+<th colspan="2"><button value="Send">Send</button></th>
+</tr>
+</table>
+</body>
+</html>
