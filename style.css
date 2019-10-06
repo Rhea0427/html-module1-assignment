@@ -1,0 +1,17 @@
+.banner{background-image: url("120.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100%;
+		opacity: 0.4;
+		padding-bottom: 50px;
+		padding-top: 50px;
+		}
+	h1{text-shadow: 3px 3px pink;
+		text-align: center;color: darkblue;}
+ 
+ 	a{color:green; text-decoration: none;}
+	a:hover{text-decoration: underline;;background-color: pink;}
+.para p{color: brown; margin-left: 50px}
+
+.cpy{
+	text-align: center;}
